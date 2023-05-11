@@ -15,3 +15,9 @@ pip install streamlit biopython evaluate torch transformers
 # Running in the venv
 `streamlit run app.py`
 On first run it will download the whole of GPT2, which may take a while.
+
+It uses your email to comply with Pubmed's request for this if you make a lot of queries to their server.
+
+# Todo:
+- Add direct links to the pubmed article
+- Less clunky method of accepting the email
